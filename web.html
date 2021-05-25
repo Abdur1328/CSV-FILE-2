@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>File Upload Example</title>
+	</head>
+	<body>
+		<form action="/upload" method="POST" enctype="multipart/form-data">
+			<p>What's your name?</p>
+			<input type="text" name="name" value="Abdur">
+                                                       <br/><br/>
+			<input type="file" name="fileToUpload">
+			<br/><br/>
+			<input type="submit" value="submit" onclick="doPost()">
+		</form>
+	</body>
+</html>
